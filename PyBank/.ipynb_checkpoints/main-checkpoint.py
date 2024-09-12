@@ -38,7 +38,7 @@ months = []
 
 
     # print the Results
-    pr("Financial Analysis")
+    print("Financial Analysis")
 
     print("....................................................................................")
 
