@@ -19,7 +19,7 @@ months = []
         P.append(int(rows[1]))
         months.append(rows[0])
 
-    # find revenue change
+    # find revenue 
     revenue_change = []
 
     for x in range(1, len(P)):
@@ -28,7 +28,7 @@ months = []
     # calculate average revenue change
     revenue_average = sum(revenue_change) / len(revenue_change)
     
-    # calculate total length of months
+    # total length of months
     total_months = len(months)
 
     # greatest increase in revenue
